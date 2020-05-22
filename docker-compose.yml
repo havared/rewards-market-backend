@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  rewards-market:
+    build:
+      context: .
+    ports:
+      - '8000:8000'
